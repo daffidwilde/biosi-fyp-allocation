@@ -1,0 +1,14 @@
+name: biosi-fyp
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - invoke=1.4.1
+  - ipykernel=5.3.4
+  - matplotlib=3.3
+  - openpyxl=3.0.6       # For pandas-excel interface
+  - pandas=1.2.0
+  - pip=20.2.4
+  - pip:
+    - matching==1.4
+    - bibtexparser==1.2
