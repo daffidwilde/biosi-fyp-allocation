@@ -1,0 +1,14 @@
+## Aux files and backups
+_bibliography.bib
+*.DS_Store
+*.ipynb_checkpoints/
+
+## Data
+*.csv
+*.xlsx
+*.zip
+
+## Main content
+main.*
+!main.tex
+!main.ipynb
